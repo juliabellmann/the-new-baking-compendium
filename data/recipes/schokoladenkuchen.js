@@ -24,6 +24,7 @@ const schokoladenkuchen = {
         { id: "milch", name: "Milch", amount: 120, unit: "ml" },
         { id: "backpulver", name: "Backpulver", amount: 1, unit: "TL" },
       ],
+      
       steps: [
         {
           id: "teig-1",
