@@ -2,7 +2,7 @@ const kaesekuchen = {
   slug: "kaesekuchen",
   title: "Cremiger Käsekuchen",
   category: "Kuchen",
-  image: "/images/schokoladenkuchen.jpg",
+  image: "/images/placeholder.jpg",
   description:
     "Cremiger Käsekuchen mit einem knusprigen Boden. Das Rezept zeigt beispielhaft, wie mehrere Rezeptteile und skalierbare Mengen aufgebaut werden.",
   portions: 12,

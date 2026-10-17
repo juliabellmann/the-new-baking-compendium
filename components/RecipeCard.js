@@ -15,7 +15,7 @@ export default function RecipeCard({ recipe }) {
       <div className="recipe-card-body">
         <div className="card-meta">
           <span>{recipe.category}</span>
-          <span>{recipe.sections.length} Bereiche</span>
+          {/* <span>{recipe.sections.length} Bereiche</span> */}
         </div>
         <h3>{recipe.title}</h3>
         <p>{recipe.description}</p>

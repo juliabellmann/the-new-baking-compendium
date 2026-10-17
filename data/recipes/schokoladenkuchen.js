@@ -2,7 +2,7 @@ const schokoladenkuchen = {
   slug: "schokoladenkuchen",
   title: "Saftiger Schokoladenkuchen",
   category: "Kuchen",
-  image: "/images/schokoladenkuchen.jpg",
+  image: "/images/placeholder.jpg",
   description: "Beschreibung des Schokoladenkuchens.",
   portions: 12,
   portionLabel: "Stück",
@@ -29,10 +29,12 @@ const schokoladenkuchen = {
         {
           id: "teig-1",
           parts: [
+            { type: "ingredient", id: "butter" },
             "Butter und Zucker cremig rühren. ",
             { type: "ingredient", id: "eier" },
             " Eier einzeln unterrühren.",
           ],
+          
         },
         {
           id: "teig-2",

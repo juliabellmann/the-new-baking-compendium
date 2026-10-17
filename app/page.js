@@ -1,6 +1,7 @@
 import Link from "next/link";
 import RecipeCard from "@/components/RecipeCard";
 import { recipes } from "@/data/recipes";
+import RecipeFilters from "@/components/RecipeFilters";
 
 export default function HomePage() {
   return (
@@ -17,21 +18,15 @@ export default function HomePage() {
       </header>
 
       <section className="content-section">
-        <div className="section-heading">
-          <div>
-            <p className="eyebrow">Übersicht</p>
-            <h2>Alle Rezepte</h2>
-          </div>
-          <span className="recipe-count">
-            {recipes.length} {recipes.length === 1 ? "Rezept" : "Rezepte"}
-          </span>
-        </div>
 
-        <div className="recipe-grid">
+        {/* <div className="recipe-grid">
           {recipes.map((recipe) => (
             <RecipeCard key={recipe.slug} recipe={recipe} />
           ))}
-        </div>
+        </div> */}
+
+         <RecipeFilters recipes={recipes} />
+         
       </section>
     </main>
   );
