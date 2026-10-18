@@ -106,7 +106,7 @@ const zwetschgenkuchen = {
             " Mehl, ",
             { type: "ingredient", id: "zucker2" },
             " Zucker und ",
-            { type: "ingredient", id: "butter1" },
+            { type: "ingredient", id: "butter2" },
             " Butter in eine Schüssel geben. Am besten kann man die Streusel mit der Hand herstellen, man kann jedoch auch das Rührgerät nehmen.",
           ],
         },
