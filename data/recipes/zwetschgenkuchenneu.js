@@ -2,9 +2,9 @@ const zwetschgenkuchenneu = {
   slug: "zwetschgenkuchenneu",
   title: "der gute Zwetschgenkuchen mit frischem Hefeteig",
   category: "Kuchen",
-  image: "/images/placeholder.jpg",
+  image: "/images/zwetschgenkuchen.jpg",
   description:
-    "ein Backblech voll Zwetschen- bzw. Pflaumenkuchen mit Hefeteig und Streuseln, wie Oma ihn früher gemacht hat.",
+    "Ein Backblech voll Zwetschen- bzw. Pflaumenkuchen mit Hefeteig und Streuseln, wie Oma ihn früher gemacht hat.",
   portions: 24,
   portionLabel: "Stück",
   details: [
